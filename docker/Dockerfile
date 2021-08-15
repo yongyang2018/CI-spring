@@ -1,4 +1,4 @@
-FROM openjdk:11.0.9.1-jre-buster
+FROM adoptopenjdk:11.0.11_9-jre-hotspot
 
 RUN mkdir /app
 WORKDIR /app
