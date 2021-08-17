@@ -30,6 +30,7 @@ jobs:
       uses: actions/setup-java@v2.2.0
       with:
         java-version: 11
+        distribution: adopt-hotspot
         
     - uses: actions/cache@v2
       with:
