@@ -35,7 +35,7 @@ begins_with_short_option()
 }
 
 # THE DEFAULTS INITIALIZATION - OPTIONALS
-_arg_image="${IMAGE:-salpadding/ci-spring}"
+_arg_image="$IMAGE"
 _arg_push="off"
 
 
